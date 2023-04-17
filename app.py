@@ -90,7 +90,7 @@ if selected == 'Home':
 if selected=='Prediction':
     image=Image.open('icon.png')
     
-    st.image(image,width=200,use_column_width=True)
+    st.image(image,width=100,use_column_width=True)
 
     st.markdown("""
     <style>
