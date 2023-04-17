@@ -139,7 +139,7 @@ if selected=='Prediction':
             fbs=st.selectbox('Enter Fasting Blood Sugar Level True:1, False:0',(0,1))
 
         with col3:
-            restecg=st.selectbox("Enter Electrocardiographic results 0:Probable, 1:Normal,2:ST-wave abnormality",(0,1,2))
+            restecg=st.selectbox("Enter Electrocardiographic results 0: 'Probable', 1: 'Normal' ,2:'ST-wave abnormality'",(0,1,2))
             thalach=st.number_input('Enter Maxixmum Heart Rate Achived',min_value=0)
             exang=st.selectbox('Enter Exercise include angina Yes:1 , No:0 ',(0,1),index=0)
 
