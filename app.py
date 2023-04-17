@@ -145,9 +145,9 @@ if selected=='Prediction':
 
         with col4:
             oldpeak=st.number_input('Enter ST depression induced by exercise relative to rest',min_value=0.0,format="%.2f")
-            slope=st.selectbox('Enter Slope of ST Segment 0:Downsloping, 1:Flat, 2:upsloping',(0,1,2),index=0)
+            slope=st.selectbox("Enter Slope of ST Segment 0:'Downsloping', 1:'Flat', 2:'upsloping'",(0,1,2),index=0)
             ca=st.selectbox('Enter the number of major vessels 0 – 3',(0,1,2,3),index=0)
-            thal=st.selectbox('Enter blood disorder called thalassemia Value 0:Null, 1:Fixed, 2:Normal, 3:Reversible',(0,1,2,3),index=0)
+            thal=st.selectbox("Enter blood disorder called thalassemia Value 0:'Null', 1:'Fixed', 2:'Normal', 3:'Reversible'",(0,1,2,3),index=0)
 
         
     
